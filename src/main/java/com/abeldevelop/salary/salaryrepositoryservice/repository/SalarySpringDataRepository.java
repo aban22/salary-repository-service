@@ -2,8 +2,8 @@ package com.abeldevelop.salary.salaryrepositoryservice.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.abeldevelop.salary.salaryrepositoryservice.entity.EmployeeEntity;
+import com.abeldevelop.salary.salaryrepositoryservice.entity.Employee;
 
-public interface SalarySpringDataRepository extends JpaRepository<EmployeeEntity, Long> {
+public interface SalarySpringDataRepository extends JpaRepository<Employee, Long> {
 
 }
