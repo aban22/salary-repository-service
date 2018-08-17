@@ -1,0 +1,1 @@
+# salary-repository-service
